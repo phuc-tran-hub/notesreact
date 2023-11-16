@@ -38,6 +38,7 @@ function NoteDetail(props) {
               backgroundColor: 'white',
               borderWidth: '0',
             }}
+            aria-label="Check"
           >
             <FontAwesomeIcon icon={faCheck} />
           </button>
@@ -53,6 +54,7 @@ function NoteDetail(props) {
               backgroundColor: 'white',
               borderWidth: '0',
             }}
+            aria-label="Edit"
           >
             <FontAwesomeIcon icon={faPen} />
           </button>
@@ -97,6 +99,7 @@ function NoteDetail(props) {
                 backgroundColor: 'white',
                 borderWidth: '0',
               }}
+              aria-label="Delete"
             >
               <FontAwesomeIcon icon={faTrash} />
             </button>
