@@ -33,7 +33,7 @@ function SearchBar(props) {
           style={{
             backgroundColor: 'white',
           }}
-          aria-label="Add"
+          aria-label="Delete"
         >
           Add New Note
         </button>
