@@ -1,0 +1,81 @@
+$fontcolor:  rgb(10%, 10%, 10%);
+$backgroundcolor: rgb(98%, 98%, 98%);
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $fontcolor;
+  background-color: $backgroundcolor;
+  margin: 50px;
+}
+
+.searchsection {
+  font-family: system-ui;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.note {
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: system-ui;
+
+  position:absolute;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  margin-bottom: 1em;
+
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5%; 
+}
+
+.note:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
+.note .titlebar{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  margin: 4%;
+}
+
+.note .titlebar .title{
+  display: flex;
+  background-color: white;
+}
+
+.note .texteditarea{
+  display: flex;
+  background-color: white;
+  align-self: center;
+  margin: 2%;
+}
+
+.note .text{
+  display: flex;
+  background-color: white;
+  align-self: left;
+  margin: 4%;
+  overflow:hidden;
+}
+
+.note .titlebar .edit{
+  display: flex;
+  background-color: none;
+}
+
+.note .titlebar .delete{
+  display: flex;
+  background-color: none;
+}
+
+.note .textbox{
+  display:flex;
+  background-color: white;
+}
